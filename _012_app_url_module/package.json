@@ -1,0 +1,11 @@
+{
+    "name": "_012_app_url_module",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "dependencies": {
+        "express": "^4.16.4",
+        "path": "^0.12.7"
+    }
+}
