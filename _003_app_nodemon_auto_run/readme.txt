@@ -1,4 +1,4 @@
-DEMO 3 - OTOMATIK CALISTIRMA
+DEMO 3 - AUTOMATIC RUN
 
 TERMINAL
 npm install -g nodemon

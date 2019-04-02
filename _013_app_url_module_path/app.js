@@ -4,7 +4,7 @@ var app = express();
 
 app.use('/public', express.static(path.join(__dirname, 'public')))
 
-var elektronikController = require('./ElektronikController');
+var elektronikController = require('./ElectronicController');
 
 app.get('/elektronik', elektronikController.elektronik);
 app.get('/elektronik/bilgisayar', elektronikController.bilgisayar);
