@@ -1,12 +1,5 @@
 DEMO 9 - PUBLIC FOLDER AND CSS
 
-TERMINAL
-cd ..
-cd _009_app_public_folders
-npm install
-npm install --save path
-
-
 _009_app_public_folders/public/css/style.css
 .MyCssClass{
     font-size: xx-large;
@@ -30,5 +23,8 @@ _009_app_public_folders/index.html
 TERMINAL
 cd ..
 cd _009_app_public_folders
+npm install -g nodemon
 npm install
+npm install --save path
+npm install --save express 
 npm start

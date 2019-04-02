@@ -1,5 +1,5 @@
 {
-    "name": "_005_App",
+    "name": "_005_app_dependencies",
     "version": "1.0.0",
     "scripts": {
         "start": "nodemon app.js"

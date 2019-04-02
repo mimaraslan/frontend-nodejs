@@ -1,6 +1,4 @@
-DEMO 13 - URL ADRESLER ICIN MODUL TANIMLAMA ve MODULLERE ADRES YOLU VERME
-
-
+DEMO 13 - ADDRESS TO MODULES 
 
 _013_app_url_module_path/electronic.html
 -------------------------------------------------
@@ -53,6 +51,8 @@ module.exports.computer=function(req, res){
 TERMINAL
 cd ..
 cd _013_app_url_module_path
+npm install -g nodemon
 npm install
 npm install --save path
+npm install --save express 
 npm start

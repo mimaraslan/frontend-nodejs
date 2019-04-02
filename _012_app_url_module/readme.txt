@@ -7,12 +7,6 @@ module.exports = function(myParam){
 }
 
 
-TERMINAL
-cd ..
-cd _012_app_url_module
-npm install
-npm install --save path
-npm start
 
 //case 3
 _012_app_url_module/electronic.html
@@ -42,3 +36,13 @@ _012_app_url_module/computer.html
 <p class="MyCssClass">COMPUTER</p>
 </body>
 </html>
+
+
+TERMINAL
+cd ..
+cd _012_app_url_module
+npm install -g nodemon
+npm install
+npm install --save path
+npm install --save express 
+npm start

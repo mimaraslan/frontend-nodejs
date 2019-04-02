@@ -4,10 +4,9 @@ var app = express();
 
 app.use('/public', express.static(path.join(__dirname, 'public')))
 
-var elektronikController = require('./ElectronicController');
-
-app.get('/elektronik', elektronikController.elektronik);
-app.get('/elektronik/bilgisayar', elektronikController.bilgisayar);
+var electronicController = require('./ElectronicController');
+app.get('/electronic', electronicController.electronic);
+app.get('/electronic/computer', electronicController.computer);
 
 
 var indexController=function(req, res){

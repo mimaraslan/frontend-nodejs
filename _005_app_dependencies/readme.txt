@@ -3,8 +3,10 @@ DEMO 5 AUTOMATIC LOADING MODULES OF THE PROJECT
 TERMINAL
 cd ..
 cd _005_app_dependencies
+npm install -g nodemon
 npm install
-npm install express --save
+npm install --save path
+npm install --save express 
 npm start
 
 TO DELETE PACKAGE npm remove OR npm uninstall 

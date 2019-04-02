@@ -3,11 +3,11 @@ var path = require('path');
 var app = express();
 
 //case 1
-//var ctrlElektronik = require('./ElektronikController')();
+//var ctrlElectronic = require('./ElectronicController')();
 
 //case 2
-var elektronikController = require('./ElektronikController');
-var nesneElektronik = elektronikController('BASARILI');
+var electronicController = require('./ElectronicController');
+var objElectronic = electronicController('OK successful');
 
 app.use('/public', express.static(path.join(__dirname, 'public')))
 

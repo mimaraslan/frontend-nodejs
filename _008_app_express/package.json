@@ -1,5 +1,5 @@
 {
-    "name": "_008_app-express",
+    "name": "_008_app_express",
     "version": "1.0.0",
     "scripts": {
         "start": "nodemon app.js"
